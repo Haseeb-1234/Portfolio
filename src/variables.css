@@ -1,0 +1,29 @@
+/* src/styles/variables.css */
+:root {
+  /* Light theme */
+  --light-bg: #f8f9fa;
+  --light-text: #343a40;
+  --light-primary: #4361ee;
+  --light-secondary: #3f37c9;
+  --light-accent: #4895ef;
+  --light-card: #ffffff;
+  --light-border: #e9ecef;
+  --light-shadow: rgba(0, 0, 0, 0.1);
+  
+  /* Dark theme */
+  --dark-bg: #121212;
+  --dark-text: #e9ecef;
+  --dark-primary: #4895ef;
+  --dark-secondary: #4361ee;
+  --dark-accent: #3f37c9;
+  --dark-card: #1e1e1e;
+  --dark-border: #2d2d2d;
+  --dark-shadow: rgba(0, 0, 0, 0.3);
+  
+  /* Common */
+  --transition: all 0.3s ease;
+  --border-radius: 8px;
+  --section-padding: 100px 0;
+  --container-width: 1200px;
+  --gap: 30px;
+}
