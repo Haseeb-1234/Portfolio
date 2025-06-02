@@ -4,28 +4,28 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   const timeline = [
+    // {
+    //   year: '2022 - Present',
+    //   title: 'Senior Developer',
+    //   company: 'Tech Innovations Inc.',
+    //   description: 'Leading frontend development for enterprise SaaS products using React and TypeScript.'
+    // },
     {
-      year: '2022 - Present',
-      title: 'Senior Developer',
-      company: 'Tech Innovations Inc.',
-      description: 'Leading frontend development for enterprise SaaS products using React and TypeScript.'
-    },
-    {
-      year: '2019 - 2022',
-      title: 'Full Stack Developer',
-      company: 'Digital Solutions LLC',
+      year: '2024/October - Present',
+      title: 'Junior Software Engineer',
+      company: 'Provelopers',
       description: 'Developed full-stack applications using Node.js, Express, and MongoDB.'
     },
     {
-      year: '2017 - 2019',
-      title: 'Junior Developer',
-      company: 'WebCraft Studios',
+      year: '2024/July - 2024/October',
+      title: 'Intern Software Engineer',
+      company: 'Provelopers',
       description: 'Built responsive websites and web applications for diverse clients.'
     },
     {
-      year: '2015 - 2017',
+      year: '2019 - 2023',
       title: 'Computer Science Student',
-      company: 'University of Technology',
+      company: 'University of Lahore',
       description: 'Focused on software engineering, algorithms, and web technologies.'
     }
   ];
@@ -56,14 +56,13 @@ const About = () => {
             <div className="bg-gray-800 rounded-2xl p-1 shadow-xl">
               <div className="bg-gray-900 rounded-xl p-8">
                 <p className="text-gray-400 text-lg mb-6">
-                  I'm a passionate software engineer with over 5 years of experience in building 
-                  scalable web applications. My journey in tech started when I was 15, tinkering 
+                  I'm a passionate software engineer with over 1 years of experience in building 
+                  scalable web applications. My journey in tech started when I was 23, tinkering 
                   with HTML and CSS to customize my blog.
                 </p>
                 <p className="text-gray-400 text-lg mb-6">
                   I believe in writing clean, maintainable code and creating intuitive user 
-                  experiences. When I'm not coding, you can find me contributing to open-source 
-                  projects, attending tech meetups, or exploring new frameworks.
+                  experiences. When I'm not coding.
                 </p>
                 <p className="text-gray-400 text-lg">
                   My approach combines technical expertise with creative problem-solving to 

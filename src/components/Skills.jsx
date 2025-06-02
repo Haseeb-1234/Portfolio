@@ -9,18 +9,17 @@ const Skills = () => {
       skills: [
         { name: 'React', level: 95 },
         { name: 'JavaScript', level: 90 },
-        { name: 'TypeScript', level: 85 },
         { name: 'HTML/CSS', level: 90 },
-        { name: 'Tailwind CSS', level: 85 }
+        { name: 'Tailwind CSS', level: 50 }
       ]
     },
     {
       name: 'Backend',
       skills: [
-        { name: 'Node.js', level: 90 },
-        { name: 'Express', level: 85 },
-        { name: 'MongoDB', level: 80 },
-        { name: 'PostgreSQL', level: 75 },
+        { name: 'Python', level: 90 },
+        { name: 'Flask', level: 85 },
+        { name: 'Django', level: 80 },
+        { name: 'MySQL', level: 75 },
         { name: 'REST API', level: 90 }
       ]
     },
@@ -29,9 +28,7 @@ const Skills = () => {
       skills: [
         { name: 'Git', level: 90 },
         { name: 'Docker', level: 70 },
-        { name: 'AWS', level: 75 },
         { name: 'CI/CD', level: 80 },
-        { name: 'Figma', level: 65 }
       ]
     }
   ];
@@ -103,9 +100,9 @@ const Skills = () => {
           
           <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
             {[
-              'React', 'TypeScript', 'Node.js', 'Express', 'MongoDB',
-              'PostgreSQL', 'GraphQL', 'Next.js', 'Tailwind CSS', 'Redux',
-              'Docker', 'AWS', 'Firebase', 'Jest', 'Git', 'Figma'
+              'React', 'JavaScript','HTML' , 'CSS', 'Python', 'Flask', 'MySQL',
+              'PostgreSQL', 'Tailwind CSS',
+              'Docker', 'Git', 'Figma'
             ].map((tech, index) => (
               <motion.div
                 key={index}

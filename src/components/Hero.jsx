@@ -26,10 +26,10 @@ const Hero = () => {
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-4 text-gradient">
               <span className="block text-gray-300">Hi, I'm</span>
-              <span className="block text-primary mt-2">Alex Morgan</span>
+              <span className="block text-primary mt-2">Haseeb Ahsan</span>
             </h1>
             <h2 className="text-2xl md:text-4xl font-bold text-gray-400 mb-6">
-              Full Stack <span className="text-primary">Developer</span>
+              Full Stack <span className="text-primary">Software Engineer</span>
             </h2>
             <p className="text-lg text-gray-400 mb-8 max-w-xl slide-up">
               I build exceptional digital experiences that are fast, accessible, 
